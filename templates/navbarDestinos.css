@@ -4,3 +4,27 @@ tr {
   display: flex;
   justify-content: center;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
