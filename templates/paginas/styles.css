@@ -1,0 +1,105 @@
+/* Estilos base */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #14213d;
+    color: #e5e5e5;
+   padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+   
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+
+
+  
+ 
+  .container{
+width: 85%;
+max-width: 850px;
+margin: 0 auto;
+  }
+  
+  .logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+
+  .main{
+    padding-top: 23rem;
+  }
+
+
+  .logo{
+    letter-spacing: 5px;
+   
+    display: flex;
+    border: 5px solid #fca31f;
+   
+  }
+
+  .logo img{
+    height: 120px;
+  }
+  .header a{
+    color: white;
+    text-decoration: none;
+
+  }
+
+  .nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .nav ul li{
+    display: inline-block;
+
+  }
+
+  .nav ul li a {
+    display: block;
+  }
+
+  .footer {
+    background: #e5e5e5;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+  }
+  @media only screen and (max-width: 767px) 
+  {
+     
+    .nav{
+      width: 100%;
+    }
+
+    .nav ul li {
+      display: block ;
+    }
+
+    .nav ul li a { 
+      display: block;
+      padding: 0.5rem 1rem;
+      transition: all 0.4s linear;
+      border-radius: 5px;
+
+    }
+      .na ul li a:hover{
+        background: #e5e5e5;
+      }
+  }
