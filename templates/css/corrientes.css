@@ -1,0 +1,130 @@
+.content img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.indented {
+  text-indent: 40px; /* Ajusta el valor según tus necesidades */
+}
+
+.provincias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloque {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px; /* Incrementa el espacio entre los cuadros */
+}
+
+.cuadros {
+  width: 340px; /* Ajusta el ancho a un tamaño mayor */
+  height: 340px; /* Ajusta la altura a un tamaño mayor */
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cuadros:hover {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cuadros img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+}
+/* Contenedor para la sección Historia */
+.contenido {
+  display: grid;
+  gap: 20px; /* Espacio entre filas */
+}
+
+/* Estilos adicionales para los elementos dentro de la sección */
+h3,
+h4,
+p {
+  margin: 0; /* Eliminar márgenes predeterminados */
+}
+
+/* Ajuste para el párrafo con clase "identend" (quizás quisiste decir "indented") */
+.identend {
+  text-indent: 2em; /* Sangría para este párrafo */
+}
+
+/* Estilos específicos para las filas */
+.fila {
+  display: grid;
+  grid-template-columns: auto auto; /* Dos columnas en cada fila, ambas se ajustan al contenido */
+  gap: 10px; /* Espacio entre columnas */
+}
+
+/* Estilos específicos para las columnas */
+.columna {
+  border: 1px solid #ddd; /* Borde para visualización */
+  padding: 10px; /* Espaciado interno */
+}
+
+/* Alineación específica para la columna izquierda */
+.derecha {
+  grid-column: 2; /* Alinear en la primera columna */
+}
+
+/* Alineación específica para la columna derecha */
+.izquierda {
+  grid-column: 1; /* Alinear en la*/
+}
+.derecha img {
+  max-width: 100%; /* La imagen tendrá como máximo el ancho del contenedor */
+  height: 100%;
+  object-fit: cover;
+}
+.video {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.fila1 {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+}
+
+/* Estilos para las filas */
+.fila2 {
+    display: grid;
+    grid-template-columns: 50% 50%; /* Dos columnas en cada fila, cada una con el 50% del ancho */
+    gap: 10px; /* Espacio entre columnas */
+}
+
+.fila2 .columna.izquierda{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+/* Estilos para las imágenes en las columnas */
+.fila2 .columna.izquierda img {
+    max-width: 65%; 
+    height: 70%;
+}
+.fila2 .columna.derecha img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+/* Estilos para la columna derecha para centrar la imagen */
+.fila2 .columna.derecha {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
