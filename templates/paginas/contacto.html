@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Turismo - DESTINO- San luis del palmar, Salta, Corrientes">
+
+    <!-- seccion liks  -->
+    <link rel="stylesheet" href="/templates/css/home.css">
+    <link rel="stylesheet" href="/templates/css/footer.css">
+    <script src="../js/formulario.js"></script>
+
+    <title>Formulario de Contacto</title>
+    <!-- link icono de la pagina -->
+    <link rel="icon" href="/templates/img/Destinos.ico">
+</head>
+    <body>
+        <h1>TURISMO PROVINCIAL</h1>
+        <nav class="encabezado">
+            <div class="logo"><img src="/templates/img/logo2.png" alt="logo"></div>
+        </nav>
+        <br>
+        <div class="barra">
+        <ul class="navegacion">
+            <li class="categoria"><a href="/home.html">Inicio</a></li>
+            <li class="categoria"><a href="../destinos.html">Destinos</a></li>
+            <li class="categoria"><a href="../paginas/galeria.html">Galeria</a></li>
+            <li class="categoria"><a href="../paginas/contacto.html">Contacto</a></li>
+            <br>
+        </ul>
+    </div>
+            <div class="content">
+                <h2>Ponte en contacto con nosotros</h2>
+                 <form action="/templates/paginas/gracias.html" method="get">
+                    <fieldset>
+                        <legend>Información Personal</legend>
+                        <div>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" name="nombre" id="nombre" placeholder="Antonio" maxlength="10" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" name="apellido" id="apellido" placeholder="Ej: Vargas">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="email">Correo Electrónico:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="telefono">Teléfono:</label>
+                            <input type="tel" id="telefono" name="telefono">
+                        </div>
+                    
+                    <br>
+                    
+                        <div>
+                            <label for="motivo">Motivo del Contacto:</label>
+                                <select id="motivo" name="motivo" required>
+                                    <option value="informacion">Información General</option>
+                                    <option value="sugerencias">Sugerencias</option>
+                                    <option value="otros">Otros</option>
+                                </select>
+                        </div>
+                    <br>
+                    </fieldset>
+                    <br>
+                    <fieldset> 
+                        <legend>Lugar de la Consulta</legend>
+                        <label for="corrientes">
+                            <input type="radio" id="corrientes" name="lugar" value="corrientes" required> Corrientes
+                        </label>
+                        <br>
+                        <label for="salta">
+                            <input type="radio" id="salta" name="lugar" value="salta" > Salta
+                        </label>
+                        <br>
+                        <label for="sanluis">
+                            <input type="radio" id="sanluis" name="lugar" value="sanluis" > San Luis del Palmar
+                        </label>
+                    </fieldset>
+                    <br>
+                    <div>
+                        <label for="mensaje">Mensaje o Consulta:</label>
+                        <br>
+                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    </div>
+                       <input type="submit" value="ENVIAR">
+                       <input type="reset" value="BORRAR">
+                    </div>
+                </form>
+            </div>
+    <br>
+    <div class="varios">
+       <button onclick="window.location.href='contacto.html'">subir</button>
+    </div>
+    <section id="formulario">
+
+    </section>
+  
+<br><hr>
+       
+       </div>
+       <footer>
+           <div class="contenidoFoter">
+              <div class="filaFooter">
+                 <div class="columnaIzquierda">
+                    <div class="logoFooter">
+                          <a href="home.html"><img  src="/templates/img/Destinos.png" alt="logo"></a>
+                                   <div class="otro">
+                                        <a href="/home.html"> <img class="logoMovilFooter" src="/templates/img/logo2.png" alt="logoMovil"></a>
+                                   </div>
+                               </div>
+                               <section class="contenedor">
+                                   <div class="textoColumnaIzquierda">
+                                       <h2 class="titulo">Necesitas ayuda?</h2>
+                                       <p>Si necesitas más información, comunícate al</p>
+                                       <p>+54 3794 487562</p>
+                                   </div>
+                               </section>
+                               
+                 </div>
+                           <div class="columnaMedia">
+                               <h2 class="titulo">Paginas Oficiales de Turismo de la provincia</h2>
+                               <div class="infoFooter">
+                                    <lu class="linksFooter"><a href="https://corrientes.tur.ar/">Corrientes</a></lu>
+                                    <lu class="linksFooter"><a href="https://www.saltaturismo.com.ar/">Salta</a></lu>
+                                    <lu class="linksFooter"><a href="https://www.instagram.com/turismosanluisdelpalmar/">San luis del Palmar</a></lu>
+                                </div>
+                           </div>
+   
+                           <div class="columnaDerecha" >
+                               <h2 class="titulo" >Info</h2>
+                               <div class="tercerColumna">
+                                   <div class="redesFooter">
+                                       <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-whatsapp"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" /><path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" /></svg>
+                                       <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
+                                       <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /><path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M16.5 7.5l0 .01" /></svg>
+                                   </div>                            
+                               </div>
+                           </div>
+                  </div>
+              </div>
+           </div>
+          
+       </footer> 
+           <span class="copyrigth">&copy; 2024 GRUPO 18. Todos los derechos reservados.</span>
+   </body>
+   
+</html>
