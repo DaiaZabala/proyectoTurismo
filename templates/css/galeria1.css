@@ -1,0 +1,53 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.galleria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagen {
+    margin: 10px;
+    text-align: center;
+    opacity: 0; /* Inicialmente establecemos la opacidad a 0 */
+    animation: fadeIn 1s ease forwards; /* Aplicamos la animación de fadeIn */
+}
+
+.imagen img {
+    width: 300px; /* Ancho de las imágenes */
+    height: auto;
+    border-radius: 5px;
+}
+.mapa {
+    width: 300px; /* Ancho de las imágenes */
+    height: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    opacity: 0; /* Inicialmente establecemos la opacidad a 0 */
+    animation: fadeIn 1s ease forwards; /* Aplicamos la misma animación de fadeIn */
+}
+
+.descripcion {
+    margin-top: 5px;
+    text-align: justify;
+    width: 300px; /* Ancho de las imágenes */
+    height: auto;
+}
+
+/* Definición de la animación */
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Empezamos con opacidad 0 */
+    }
+    to {
+        opacity: 1; /* Terminamos con opacidad 1 */
+    }
+}
