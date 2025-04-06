@@ -19,8 +19,8 @@ tr {
 }
 
 .cuadros {
-  width: 400px; /* Ajusta el ancho a un tamaño mayor */
-  height: 400px; /* Ajusta la altura a un tamaño mayor */
+  width: 280px; /* Ajusta el ancho a un tamaño mayor */
+  height: 280px; /* Ajusta la altura a un tamaño mayor */
   overflow: hidden;
   cursor: pointer;
   transition: transform 0.3s, box-shadow 0.3s;

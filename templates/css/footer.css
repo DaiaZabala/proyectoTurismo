@@ -9,16 +9,18 @@ footer{
       font-family: "Tenor Sans", sans-serif;
       font-weight: 400;
       font-style: normal; 
+       width: 100%;
+      color: #FCA311;
+    display: block;
+    font-size: 20px;
+    margin: 0;
+      
   }
   
   footer a{
     color: #FCA311;
   }
-  /* .contenedor-footer {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-} */
+
 .textoColumnaIzquierda p {
   margin: 0;
   font-size: 14px;
@@ -90,6 +92,7 @@ footer{
    justify-content: center;
    display: block;
   }
+  
   
 svg{
     width:10%;

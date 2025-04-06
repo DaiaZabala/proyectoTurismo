@@ -18,12 +18,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 35px; /* Incrementa el espacio entre los cuadros */
+  gap: 25px;
+  flex-wrap: wrap;
+  max-width: 100%;
 }
 
 .cuadros {
-  width: 340px; /* Ajusta el ancho a un tamaño mayor */
-  height: 340px; /* Ajusta la altura a un tamaño mayor */
+  width: 280px; /* Ajusta el ancho a un tamaño mayor */
+  height: 280px; /* Ajusta la altura a un tamaño mayor */
   overflow: hidden;
   cursor: pointer;
   transition: transform 0.3s, box-shadow 0.3s;
