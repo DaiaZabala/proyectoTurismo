@@ -1,28 +1,27 @@
-body{
-   width: 100%;
-   background-image: url(/templates/img/3731533_1971537.jpg);
-   background-size: cover; /* Ajustar la imagen para cubrir todo el fondo */
+body {
+    width: 100%;
+    background-image: url(/templates/img/3731533_1971537.jpg);
+    background-size: cover; /* Ajustar la imagen para cubrir todo el fondo */
     background-repeat: no-repeat; /* Evitar que la imagen se repita */
-    /* background-color: #000000; */
     padding: 0;
     margin: 0;
 }
- 
-.content{
+
+.content {
     margin-left: 5%;
     margin-right: 5%;
     background-color: #14213D;
     color: #efefef;
     border-radius: 1%;
     font-size: 30px;
-    padding: 1%; 
+    padding: 1%;
     display: block;
     justify-content: center;
-    border:yellow;
+    border: yellow;
     background-color: #14213D;
 }
 
-footer{
+footer {
     width: 100%;
     height: 35%;
     background-color: #000000;
@@ -31,131 +30,327 @@ footer{
     font-size: 20px;
     margin: 0;
 }
- nav{
+
+nav {
     width: 100%;
-    height:40%;
-    background-color: #000000 ;  
- }
- h1{
-    color:#efefef;
+    height: 40%;
+    background-color: #000000;
+}
+
+h1 {
+    color: #efefef;
     display: flex;
     justify-content: center;
     background-color: #14213D;
-    margin:0;
-   
- }
-.logo img{
-    height: 10%;
-    width: 10%;
-    margin: 1%; 
+    margin: 0;
 }
 
-.barra{
+.logo img {
+    height: 10%;
+    width: 10%;
+    margin: 1%;
+}
+
+.barra {
     background-color: #efefef;
     display: flex;
     justify-content: center;
-    border-top: 5px double #000000; /* Borde superior de 1px sólido de color gris claro */
-    border-bottom: 5px double #000000; /* Borde inferior de 1px sólido de color gris claro */
+    border-top: 5px double #000000;
+    border-bottom: 5px double #000000;
 }
 
 .navegacion {
     width: 80%;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     color: #000000;
-    }
+}
 
-.categoria{
+.categoria {
     display: block;
     justify-content: center;
     margin-top: 1%;
-    margin-bottom:1%;
+    margin-bottom: 1%;
     margin-inline: 5%;
     font-size: 25px;
 }
 
-a{ text-decoration: none;
+a {
+    text-decoration: none;
 }
+
 a:visited {
     text-decoration: none;
     color: inherit; /* Heredar el color del texto del elemento padre */
 }
-.categoria:hover{
+
+.categoria:hover {
     background-color: #FCA311;
     color: #000000;
 }
 
-.footer1{
-    display:block ;
+.footer1 {
+    display: block;
     width: 100%;
-    height: 30px;
-    border-bottom:1px solid #FCA311;
+    /* height: 30px; */
+    border-bottom: 1px solid #FCA311;
     background-color: #000000;
-
     color: #FCA311;
 }
-.copyrigth{
+
+.copyrigth {
     height: 25px;
     display: flex;
     justify-content: center;
-    margin:0;
+    margin: 0;
 }
 
 .imagenEncabezado {
     width: 100%; /* 100% del ancho de la ventana */
     height: auto;
     display: flex;
-   justify-content: center;
-   align-items: center;
+    justify-content: center;
+    align-items: center;
 }
-.imagenEncabezado img{
+
+.imagenEncabezado img {
     width: 90%;
     display: flex;
     justify-content: center;
 }
 
 .desplegar {
-     position: absolute;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 10%; /* Ajusta el ancho según tus necesidades */
-      height: 5%; /* Ajusta el alto según tus necesidades */
-      border: 2px solid #333; /* Borde del botón */
-      border-radius: 5px; /* Bordes redondeados */
-      background-color: #fff; /* Color de fondo del botón */
-      transition: background-color 0.3s, color 0.3s; /* Transición suave de colores */
-      text-decoration: none; /* Eliminar subrayado del enlace */
-      color: #333; /* Color del texto */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  
-  .desplegar:hover {
-      background-color: #333; /* Color de fondo al pasar el cursor sobre el botón */
-      color: #fff; /* Color del texto al pasar el cursor sobre el botón */
-  }
-  
-  .varios{
-    
+    position: absolute;
+    bottom: 20px; /* Ajusta la distancia desde la parte inferior */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 40px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Asegura que el botón esté por encima de otros elementos */
+}
+
+.desplegar:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.varios {
     display: flex;
     justify-content: right;
     margin: 2%;
+}
 
-  }
-  .varios button{
-   color:#14213D;
-      padding: 10px 15px;
-     border: 1px solid #000000;
+.varios button {
+    color: #14213D;
+    padding: 10px 15px;
+    border: 1px solid #000000;
     border-radius: 5px;
     background-color: #FCA311;
     margin-left: 1%;
-  }
+}
 
-  .varios button:hover {
-    
+.varios button:hover {
     background-color: #14213D; /* Cambio de color de fondo al pasar el mouse */
     color: #FCA311;
-  }
+}
+
+/* Estilos para dispositivos pequeños (móviles) */
+@media (max-width: 600px) {
+    .content {
+        margin-left: 3%;
+        margin-right: 3%;
+        font-size: 20px;
+        padding: 2%;
+    }
+
+    footer {
+        height: 25%;
+        font-size: 15px;
+    }
+
+    nav {
+        height: 30%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .logo img {
+        height: 15%;
+        width: 15%;
+    }
+
+    .barra {
+        font-size: 14px;
+    }
+
+    .categoria {
+        font-size: 18px;
+    }
+    .varios {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .varios button {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 1%;
+    }
+    .desplegar {
+        position: absolute;
+        top: 360px; /* Ajusta la distancia hacia arriba */
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+
+}
+
+/* Estilos para dispositivos medianos (tabletas) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .content {
+        margin-left: 4%;
+        margin-right: 4%;
+        font-size: 25px;
+        padding: 2%;
+    }
+
+    footer {
+        height: 30%;
+        font-size: 18px;
+    }
+
+    nav {
+        height: 35%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .logo img {
+        height: 12%;
+        width: 12%;
+    }
+
+    .barra {
+        font-size: 16px;
+    }
+
+    .categoria {
+        font-size: 22px;
+    }
+
+    .varios {
+        justify-content: space-between;
+    }
+
+    .varios button {
+        width: auto;
+        margin-left: 1%;
+    }
+    .desplegar {
+        position: absolute;
+        top: 405px; /* Ajusta la distancia hacia arriba */
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 35px;
+        font-size: 16px;
+    }
+}
+@media (min-width: 700px) and (max-width: 800px) {
+    .desplegar {
+        position: absolute;
+        top: 450px; /* Ajusta la distancia hacia arriba */
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 35px;
+        font-size: 16px;
+    }}
+    @media (min-width: 801px) and (max-width: 900px) {
+        .desplegar {
+            position: absolute;
+            top: 480px; /* Ajusta la distancia hacia arriba */
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 35px;
+            font-size: 16px;
+        }
+    }
+    @media (min-width: 901px) and (max-width: 1024px) {
+        .desplegar {
+            position: absolute;
+            top: 530px; /* Ajusta la distancia hacia arriba */
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 35px;
+            font-size: 16px;
+        }
+    }
+/* Estilos para dispositivos grandes (escritorios) */
+@media (min-width: 1025px) {
+    .content {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 30px;
+        padding: 1%;
+    }
+
+    footer {
+        height: 35%;
+        font-size: 20px;
+    }
+
+    nav {
+        height: 40%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .logo img {
+        height: 10%;
+        width: 10%;
+    }
+
+    .barra {
+        font-size: 18px;
+    }
+
+    .categoria {
+        font-size: 25px;
+    }
+
+    .varios {
+        justify-content: right;
+    }
+
+    .varios button {
+        width: auto;
+        margin-left: 1%;
+    }
+
+}
+
+
+  

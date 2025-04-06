@@ -14,6 +14,15 @@ footer{
   footer a{
     color: #FCA311;
   }
+  /* .contenedor-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} */
+.textoColumnaIzquierda p {
+  margin: 0;
+  font-size: 14px;
+}
   
 .copyrigth {
     display: flex;

@@ -1,14 +1,4 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-}
 
-body {
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0;
-    padding: 0;
-  }
-  
   header {
     background-color: #333;
     color: #fff;
@@ -39,15 +29,7 @@ body {
   nav ul li a:hover {
     text-decoration: underline;
   }
-  
 
-
-
-  body{
-    background-color: #000000;
-    font-family: sans-serif;
-    font-size: 3rem;
-}
 .grid-item{
     display: flex;
     align-items: center;                                                              
