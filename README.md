@@ -1,10 +1,14 @@
-# 🌍 Proyecto Turismo Argentina
+# 🌍 Proyecto Turismo Argentina - Destino Agencia de Turismo
 
-Este proyecto es una página web informativa sobre el turismo en Argentina. Está diseñada para mostrar diferentes destinos turísticos del país de forma clara, visual y accesible.
+Destino - Agencia de turismo es una plataforma dedicada a los amantes del turismo en Argentina, enfocada en tres destinos claves: San Luis del Palmar, Corrientes y Salta. 
 
-El sitio presenta contenido sobre diversas regiones, paisajes y atracciones turísticas, con el objetivo de fomentar el interés y conocimiento sobre el turismo nacional.
+Los usuarios pueden explorar diversos destinos turísticos, ver galerías de imágenes, obtener información sobre actividades y descubrir datos relevantes sobre cada lugar.
 
-Desarrollado utilizando **HTML**, **CSS** y **JavaScript**, el proyecto tiene un diseño responsive que se adapta a distintos dispositivos, incluyendo celulares y computadoras.
+El proyecto ha sido desarrollado en equipo, utilizando principalmente **HTML** y **CSS**, con un pequeño uso de **JavaScript**.
+
+El sitio está diseñado para mostrar diferentes destinos turísticos del país de forma clara, visual y accesible, fomentando el interés y conocimiento sobre el turismo nacional.
+
+Desarrollado con un diseño responsive que se adapta a distintos dispositivos, incluyendo celulares y computadoras.
 
 ## 🔗 Demo en vivo
 
